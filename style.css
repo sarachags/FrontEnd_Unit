@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #FFEB3B;
+    color: white;
+    padding: 2px 10px;
+}
+
+.logo-container {
+    margin-right: auto;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    background-color: #FFEB3B;
+    padding: 3px 8px; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #FFD700;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.petshop-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.petshop {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.petshop:last-child {
+    margin-right: 0;
+}
+
+.petshop img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: filter 0.3s ease;
+}
+
+.petshop img:hover {
+    filter: grayscale(100%);
+}
+
+footer {
+    background: #FFEB3B;
+    color: white;
+    text-align: center;
+    font-size: 10px;  
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contato-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contato-imagem {
+    flex: 1;
+}
+
+.imagem-contato {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imagem-bemvindo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+
+.sobre-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sobre-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.sobre-imagem {
+    flex: 1;
+}
+
+.imagem-sobre {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
